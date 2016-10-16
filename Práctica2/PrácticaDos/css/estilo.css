@@ -1,0 +1,259 @@
+
+
+
+#imagen{
+    width: 100%;
+    position: relative;
+    color:white;
+    border-style:double;
+    display:inline-block;
+}
+
+
+
+#menu{
+   padding:15px 10px 15px 10px;
+    color:white;
+    border-width:2px;
+    width:left;
+    border-style:double;
+    display:inline-block;
+}
+
+#contenido {
+    padding:15px 15px 15px 15px;
+    color:black;
+    border-width:5px;
+    width:auto;
+    border-style:double;
+    display:inline-block;
+    background-color: black;
+    /*background-color: #CBA74D;*/
+    border-radius:50px; /* Firefox */ 
+    border-radius:50px; /* Safari y Chrome */ 
+    background: #fff  ; /* Para Internet Explorer */
+    background: rgba(255,255,255,.5)  ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(200,200,200)  ;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255)  ;
+    z-index: 0;
+}
+
+
+#contenido2 {
+     padding:50px 10px 10px 10px;
+    color:transparent;
+    width:auto;
+    border-width:1px;
+    border-style:double;
+    display:inline-block;
+    background-color:white;
+    background: rgba(255,255,255,.5)  ;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(200,200,200)  ;
+    margin: 0 auto;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255)  ;
+    border-radius:30px; /* Firefox */ 
+    border-radius:30px; /* Safari y Chrome */ 
+
+}
+
+#contenido3 {
+     padding:50px 10px 10px 10px;
+    color:transparent;
+    width:auto;
+    border-width:1px;
+    border-style:double;
+    display:inline-block;
+    background-color:white;
+    background: rgba(255,255,255,.5)  ;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(200,200,200)  ;;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255)  ;
+    border-radius:30px; /* Firefox */ 
+    border-radius:30px; /* Safari y Chrome */ 
+
+
+
+}
+
+
+#contenido4texto {
+    padding:50px 10px 10px 10px;
+    color:transparent;
+    width:80%;
+    border-width:1px;
+    border-style:double;
+    display:inline-block;
+    background-color:white;
+    background: #fff  ; /* Para Internet Explorer */
+    background: rgba(255,255,255,.5)  ;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgb(200,200,200)  ;
+    font-size: 10rem;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255)  ;
+    width: 80%;
+    border-radius:30px; /* Firefox */ 
+    border-radius:30px; /* Safari y Chrome */ 
+    z-index: -50;
+}
+
+#texto{
+font: monospace 150%;
+     text-align: left;
+     font-size:15px;
+}
+
+
+h1{
+    color:black;
+    line-height:15px;
+}
+
+p,b{
+     font: small-caps 100%/200% serif; 
+    color:black;
+    font-size: 15px;
+    font-style: inherit;
+}
+h6{
+
+    color:white;
+    font-size: 20px;
+    font-style: inherit;
+    text-indent: solid;
+}
+
+
+
+.bajo{
+	width: 100%;
+	position: relative;
+}
+
+
+#video{
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: -100;
+ overflow: hidden;
+}
+
+
+
+/*parte del inicio de sesion*/
+
+/*borde de afuera*/
+.border,
+.rain{
+    height: 170px;
+    width: 320px;
+    padding:50px 10px 10px 10px;
+    color:black;
+    font-size: 15px;
+    border-width:1px;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+/*Parte exterior*/
+.rain{
+    padding: 10px 12px 12px 10px;
+    
+     -moz-box-shadow: 10px 10px 10px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+     -webkit-box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+      box-shadow: 8px 8px 8px rgba(0,0,0,1) inset, -9px -9px 8px rgba(0,0,0,1) inset;
+      margin: 100px auto;
+      border-radius: 5px;
+
+}
+            /* Artifical "border" to clear border to bypass mask */
+
+.border{
+    padding: 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color:transparent;
+}
+   
+
+form{
+    background:  #212121;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    /*opacidad de en medio*/
+    background: -moz-radial-gradient(50% 46% 90deg,circle closest-corner, transparent, green);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(transparent), to(green));
+    border-radius: 5px;
+}
+
+
+/*parte de los   label*/
+form label{
+    display: block;
+    padding: 10px 10px 5px 15px;
+    font-size: 11px;
+    color: white;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+         
+/*parte de ingreso de los label*/   
+form input{
+    display: block;
+    margin: 5px 10px 10px 15px;
+    width: 85%;
+    background: white;
+    -moz-box-shadow: 0px 0px 4px #white inset;
+    -webkit-box-shadow: 0px 0px 4px #white inset;
+    box-shadow: 0px 0px 4px green inset;
+    outline: 1px solid white;
+    border: 1px solid transparent;
+    padding: 5px;
+    color: #444;
+    font-size: 16px;
+}
+
+
+form input:focus{
+    outline: 1px solid green;
+    color: green;
+}
+
+input[type="submit"]{
+    color: white;
+    padding: 5px 10px;
+    float: center;
+    margin: 20px 0;
+    border:.51px solid transparent;
+    font-weight: lighter;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: white;
+    /*background: -moz-linear-gradient(top, #222 0%, #111 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222), color-stop(100%,#111));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22222', endColorstr='#11111',GradientType=0 );
+    */-moz-box-shadow: 0px 1px 1px green, 0px 1px 0px rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0px 1px 1px green, 0px 1px 0px rgba(255,255,255,.3) inset;
+    box-shadow: 0px 1px 1px green,0px 1px 0px rgba(255,255,255,.3) inset;
+    text-shadow: 0 1px 1px green;
+}

@@ -1,0 +1,38 @@
+body
+{
+   background-color: #2C1205;
+   background-image: url(BrownMarble.jpg);
+   background-position: top left;
+   background-repeat: repeat-y;
+   margin-left: 150px;
+   margin-right: 3%;
+   color: #DDD3CC;
+   font-size: 12pt;
+   font-family: "Garamond", "Serif";
+   text-align: justify;
+}
+h1
+{
+   font-size: 18pt;
+   color: white
+}
+h2
+{
+   font-size: 14pt;
+   color: white
+}
+h3
+{
+   font-size: 12pt;
+   color: white
+}
+a:link
+{
+   color: #ff0;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #da0;
+   text-decoration: none;
+}

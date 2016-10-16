@@ -1,0 +1,44 @@
+body
+{
+   background-color: #004040;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+p, ul, ol, dl
+{
+   color: white;
+   text-align: justify;
+   font-family: "Arial Narrow", "Sans-Serif";
+}
+h1
+{
+   border-bottom: double;
+   color: #80FF80;
+   font-family: "Impact", "Sans-Serif";
+}
+h2
+{
+   border-bottom: thin solid;
+   color: #80FF80;
+   font-family: "Impact", "Sans-Serif";
+}
+h3
+{
+   color: #80FF80;
+   font-family: "Impact", "Sans-Serif";
+}
+A:link
+{
+   color: lime;
+   text-decoration: none;
+}
+A:visited
+{
+   color: aqua;
+   text-decoration: none;
+}
+A:active
+{
+   color: red;
+   text-decoration: none;
+}

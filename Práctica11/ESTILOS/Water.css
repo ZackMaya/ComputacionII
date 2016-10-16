@@ -1,0 +1,68 @@
+body
+{
+   background: url(Water.jpg);
+   background-color: #acd;
+}
+p, address
+{
+   background-color: #0D9ECB;
+   padding: 1%;
+   border: outset;
+   margin-left: 5%;
+   margin-right: 5%;
+   color: white;
+   font-family: "Franklin Gothic Medium", sans-serif;
+   text-align: justify;
+}
+ul, ol, dl
+{
+   background-color: #0D9ECB;
+   padding: 1%;
+   padding-left: 2em;
+   border: outset;
+   margin-left: 10%;
+   margin-right: 5%;
+   color: white;
+   font-family: "Franklin Gothic Medium", sans-serif;
+   text-align: justify;
+}
+h1
+{
+   background-color: #0D9ECB;
+   padding: 1%;
+   border: outset;
+   margin-left: 10%;
+   margin-right: 10%;
+   color: #004080;
+   font-weight: normal;
+   font-family: "Bauhaus 93", Impact, sans-serif;
+   text-align: center;
+}
+h2
+{
+   background-color: #0D9ECB;
+   padding: 1%;
+   border: outset;
+   margin-left: 20%;
+   margin-right: 20%;
+   color: #004080;
+   font-weight: normal;
+   font-family: "Bauhaus 93", Impact, sans-serif;
+   text-align: center;
+}
+h3
+{
+   background-color: #0D9ECB;
+   padding: 1%;
+   border: outset;
+   margin-left: 30%;
+   margin-right: 30%;
+   color: #004080;
+   font-weight: normal;
+   font-family: "Bauhaus 93", Impact, sans-serif;
+   text-align: center;
+}
+a
+{
+  text-decoration: none;
+}

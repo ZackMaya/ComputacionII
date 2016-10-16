@@ -1,0 +1,57 @@
+body
+{
+   background-color: #eee;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Garamond", "Times New Roman", "Serif";
+}
+p
+{
+   padding-left: 10px;
+   text-align: justify;
+}
+h1
+{
+   color:navy;
+   font-size: 18pt;
+   font-family: "Bookman", "Garamond", "Times New Roman", "Serif";
+}
+h2
+{
+   color:navy;
+   font-size: 14pt;
+   font-family: "Bookman", "Garamond", "Times New Roman", "Serif";
+}
+h3
+{
+   color:navy;
+   font-size: 12pt;
+   font-family: "Bookman", "Garamond", "Times New Roman", "Serif";
+}
+h4
+{
+   border: thin solid;
+   border-color: navy;
+   padding: 10px;
+   font-size: 12pt;
+   font-weight: normal;
+}
+h5
+{
+   border: thin solid;
+   border-color: black;
+   background-color: navy;
+   padding: 10px;
+   color: white;
+   font-size: 12pt;
+   font-weight: normal;
+}
+h6
+{
+   border: thin solid;
+   border-color: black;
+   padding: 10px;
+   font-size: 12pt;
+   font-weight: normal;
+}

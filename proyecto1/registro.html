@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colegio de Ciencia y Tecnología UACM Proyecto 1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--Para reconocer acentos y caracteres especiales-->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<!--Simbolos especiales como acentos y ñ´s-->
+	<meta name="Proyecto 1" content="Proyecto de Computación II" />
+
+	<!--estilo de la página-->
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="css/skel.css" />
+
+	<!--Estilos para redes sociales panel lateral-->
+	<link href="./css/iconic.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="./css/redesSociales.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+</head>
+<body>
+	
+
+
+		<!-- Cabecera -->
+			<header id="header" class="skel-layers-fixed">
+				<h1 id="uacm"><a href="http://www.uacm.edu.mx" target="_blank">UACM</a><br></h1>
+				<nav id="nav">
+					<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="ingenieriaSoftware.html" class="button special">Proyecto 1</a></li>
+					</ul>
+				</nav>
+			</header><br><br><br>
+
+			<!--Redes Sociales-->
+			<div class="social">
+				<ul>
+					<li><a href="http://www.facebook.com/netozack" target="_blank" class="icon-facebook" title="Facebook"></a></li>
+					<li><a href="http://www.twitter.com/netozack" target="_blank" class="icon-twitter" title="Twitter"></a></li>
+					<li><a href="http://www.googleplus.com/ZackMaya" target="_blank" class="icon-google-plus" title="Google+"></a></li>
+					<li><a href="mailto:netozack@hotmail.com" class="icon-mail2" title="Mail"></a></li>
+				</ul>
+			</div>
+
+
+			<form action = "#" method = "post">
+      <input type="hidden" name="submitted" value="true">
+        <fieldset>
+         <h2>MOOC UACM  - Registro Usuario</h2>
+  			<br><br>
+  			<hr>
+
+  			<!--El id es autoincrement en la Base de Datos no se necesita ingresar-->
+
+			<!--Nombre de usuario-->	  
+			<div class="form-group">
+				<label for="nombreUsuario">Nombre de Usuario</label>
+				<input class="form-control" name="nombre" type="text" required="required" placeholder="Nombre y Apellidos" tabindex="1" title="Nombre completo">
+			</div>
+
+					
+			<!--Correo Email-->
+			<div class="form-group">
+					<label for="email">Correo</label>
+					<input class="form-control" name="email" type="email" required="required"  placeholder="E-mail" tabindex="5" title="Email">
+			</div>
+
+			<!--contraseña-->
+			<div class="form-group">
+					<label for="password">Contraseña</label>
+					<input class="form-control" name="password" type="password" required="required" placeholder="Contraseña" tabindex="6" title="Contraseña">
+			</div>
+
+										
+			<!--Edad-->
+			<div class="form-group">
+				<label for="edad">Edad</label>
+				<input class="form-control" name="edad" type="text" required="required" id="edad" placeholder="Edad" tabindex="6" title="Edad">
+			</div>
+
+		
+
+   				
+		
+       	<div class="col-lg-12 ">
+				<br>
+			<div class="col-xs-3 col-sm-3 col-md-3">
+				<input type="submit" tabindex="7" name="aceptar" value="Aceptar"  class="btn btn-default">
+			</div>
+
+			<div class="col-xs-3 col-sm-3 col-md-3"> 
+				<input type="reset" tabindex="8" value="Borrar">
+			</div>
+
+			<div class="col-xs-3 col-sm-3 col-md-3"> <a href="ingenieriaSoftware.html" >Regresar</a> 
+	        </div>
+			<input type="hidden" name="estado" value="1">
+		</div>									
+        </fieldset>
+      </form>
+
+
+
+			<div id="seccionFinal">
+				<p>La Universidad Autónoma de la Ciudad de México hace el honor de invitarte al MOOC Cursos abiertos y libres que imparte la institución, con el fin de alcanzar la excelencia de sus alumnos y su crecimiento dentro y fuera de las aulas de clases, esperamos que sea una experiencia agradable y grata, bienvenidos.</p>
+				<br>
+			</div>
+			
+
+
+
+		
+		<!-- Footer -->
+			<footer id="footer">
+			<ul class="copyright">
+				<img src="./imagenes/mooc3.jpg" width="100px" height="40px">
+						<li>Copyright © 2016 UACM-Computación II. Todos los Derechos Reservados.</li>
+						<li>Diseño: <a href="mailto:netozack@hotmail.com" target="_blank">Ernesto Z. Maya</a></li>
+					</ul>
+					<!--Fecha-->
+						<center><h6>Fecha: <script>
+						var f = new Date();
+						document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+						</script></h6></center>
+			</footer>
+</body>
+</html>
+
+
+

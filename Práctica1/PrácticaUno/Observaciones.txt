@@ -1,0 +1,36 @@
+Observaciones práctica 1
+
+
+Paso 7.
+
+Se visualiza en el navegador la página web creada pero el texto aparece en la parte superior 
+sin formato y junto.
+
+Paso 8.
+
+Se visualiza en el navegador la página web creada, ahora el texto de nuevo aparece en la parte superior
+pero esta vez esta separado por espacios entre parrafos.
+
+Paso 9.
+
+Se visualiza en el navegador la página web creada, esta vez después del texto "(Mi primera página web)",
+se observa una línea divisora que separa este texto con los demás siguientes.
+
+Paso 10.
+
+Se visualiza en el navegador la página web creada, ahora el texto "(Mi primera página web)" se encuentra en negritas,
+se observa una línea divisora que separa este texto con los demás siguientes.
+
+Paso 11.
+
+Se visualiza en el navegador la página web creada, ahora el texto "(Mi primera página web)" se encuentra en negritas,
+se observa una línea divisora que separa este texto con los demás siguientes y además el texto "Bienvenido al curso de Computación II en la U.A.C.M.", 
+se cambio a un formato de letra cursiva.
+
+Paso 12.
+
+Se visualiza en el navegador la página web creada, ahora el texto "(Mi primera página web)" se encuentra en negritas,
+se observa una línea divisora que separa este texto con los demás siguientes y además el texto "Bienvenido al curso de Computación II en la U.A.C.M.", 
+se cambio a un formato de letra cursiva. Colocando la imagen a la página se visualiza del mismo tamaño del archivo.
+
+

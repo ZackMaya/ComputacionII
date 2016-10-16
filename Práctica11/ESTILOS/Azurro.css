@@ -1,0 +1,60 @@
+      body
+      {
+         background: #006699;
+         margin-left: 5%;
+         margin-right: 5%;
+      }
+      p, li, address, ul, ol, dl
+      {
+         color: white;
+         text-align: justify;
+         font-family: "Comic Sans MS", sans-serif;
+      }
+dt
+{
+   font-weight: bold;
+}
+blockquote
+{
+   /*color: yellow;*/
+   font-style: italic;
+}
+pre, code
+{
+   color: white;
+   font-family: monospace
+}
+      h1
+      {
+         border: thin solid white;
+         background: #FF8080;
+         padding: 1%;
+         color: white;
+         font-family: "Trebuchet MS", "Comic Sans MS", sans-serif;
+      }
+      h2
+      {
+         border-bottom: thin solid;
+         color: #FF8080;
+         font-family: "Trebuchet MS", "Comic Sans MS", sans-serif;
+      }
+      h3
+      {
+         color: #FF8080;
+         font-family: "Trebuchet MS", "Comic Sans MS", sans-serif;
+      }
+      A:link
+      {
+         color: yellow;
+         text-decoration: none
+      }
+      A:visited
+      {
+         color: aqua;
+         text-decoration: none
+      }
+      A:active
+      {
+         color: red;
+         text-decoration: none
+      }

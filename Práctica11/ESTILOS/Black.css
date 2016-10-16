@@ -1,0 +1,52 @@
+body
+{
+   background-color: black;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+p, ul, ol, dl, address
+{
+   color: white;
+   font-family: "Lucida Sans Unicode", tahoma, sans-serif
+}
+h1
+{
+   color: #F84;
+   border-bottom: solid thin;
+   font-family: verdana, sans-serif
+}
+h2
+{
+   color: #F84;
+   font-family: verdana, sans-serif
+}
+h3
+{
+   color: #F84;
+   font-family: verdana, sans-serif
+}
+h6
+{
+   border-left: solid;
+   border-color: #8F8;
+   padding-left: 1%;
+   color: #8F8;
+   font-weight: normal;
+   text-align: justify;
+   font-family: "Andale Mono", sans-serif
+}
+A:link
+{
+   color: yellow;
+   text-decoration: none
+}
+A:visited
+{
+   color: #880;
+   text-decoration: none
+}
+A:active
+{
+   color: red;
+   text-decoration: none
+}

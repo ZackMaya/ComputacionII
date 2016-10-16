@@ -1,0 +1,43 @@
+body
+      {
+         background-color: #800080;
+         margin-left: 5%;
+         margin-right: 5%;
+         color: white;
+         font-size: 10pt;
+         font-family: "Footlight MT Light", "Serif";
+      }
+      p
+      {
+         text-align: justify
+      }
+      h1
+      {
+         font-size: 24pt;
+         color: #00FF00;
+         font-family: "Desdemona",  "Sans-Serif"
+      }
+      h2
+      {
+         font-size: 18pt;
+         color: #00FF00;
+         font-family: "Desdemona",  "Sans-Serif"
+      }
+      h3
+      {
+         font-size: 14pt;
+         color: #00FF00;
+         font-family: "Desdemona",  "Sans-Serif"
+      }
+      A:link
+      {
+         color: aqua
+      }
+      A:visited
+      {
+         color: fuchsia
+      }
+      A:active
+      {
+         color: red
+      }

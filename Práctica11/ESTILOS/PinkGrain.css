@@ -1,0 +1,52 @@
+BODY
+{
+   background-image: url(PinkGrain.jpg);
+   background-color: #fdd;
+}
+p
+{
+   background-image: url(PinkTissue.jpg);
+   padding: 1%;
+   border: inset;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Franklin Gothic Medium", "Sans-Serif";
+   text-align: justify;
+}
+h1
+{
+   background-image: url(PinkTissue.jpg);
+   padding: 1%;
+   border: inset;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 24pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Heavy", "Sans-Serif";
+   text-align: center;
+}
+h2
+{
+   background-image: url(PinkTissue.jpg);
+   padding: 1%;
+   border: inset;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 18pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Heavy", "Sans-Serif";
+   text-align: center;
+}
+h3
+{
+   background-image: url(PinkTissue.jpg);
+   padding: 1%;
+   border: inset;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 14pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Heavy", "Sans-Serif";
+   text-align: center;
+}

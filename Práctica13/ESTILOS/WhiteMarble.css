@@ -1,0 +1,46 @@
+body
+{
+   background-image: url(WhiteMarble.jpg);
+   background-color: white;
+}
+p
+{
+   background-image: url(Newsprint.jpg);
+   border: thin groove;
+   padding: 1%;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Garamond", "Serif";
+   text-align: justify;
+}
+h1
+{
+   border: thin groove;
+   padding: 1%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size:24pt;
+   font-family: "Copperplate Gothic Light", "Garamond", "Serif";
+   text-align: center;
+}
+h2
+{
+   border: thin groove;
+   padding: 1%;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size:18pt;
+   font-family: "Copperplate Gothic Light", "Garamond", "Serif";
+   text-align: center;
+}
+h3
+{
+   border: thin groove;
+   padding: 1%;
+   margin-left: 30%;
+   margin-right: 30%;
+   font-size:14pt;
+   font-family: "Copperplate Gothic Light", "Garamond", "Serif";
+   text-align: center;
+}

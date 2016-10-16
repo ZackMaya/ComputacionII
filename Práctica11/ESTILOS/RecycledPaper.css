@@ -1,0 +1,34 @@
+BODY
+{
+   background: url(RecycledPaper.jpg);
+   background-color: rgb(245, 222, 179);
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 10pt;
+   font-family: "Franklin Gothic Book", "Sans-Serif";
+}
+p
+{
+   text-align: justify;
+}
+h1
+{
+   color: maroon;
+   font-size:18pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Heavy", "Sans-Serif";
+}
+h2
+{
+   color: maroon;
+   font-size:14pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Demi", "Sans-Serif";
+}
+h3
+{
+   color: maroon;
+   font-size:12pt;
+   font-weight: normal;
+   font-family: "Franklin Gothic Medium", "Sans-Serif";
+}

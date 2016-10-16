@@ -1,0 +1,37 @@
+BODY
+{
+   background-color: #F7F7F7;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+}
+p
+{
+   text-align: justify;
+}
+h1
+{
+   border: thick double;
+   padding: 2%;
+   font-size: 24pt;
+   text-align: center;
+}
+h2
+{
+   border-bottom: thin solid;
+   font-size: 18pt;
+}
+h3
+{
+   font-size: 14pt;
+}
+a:link
+{
+   color: #a0a;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #505;
+   text-decoration: none;
+}

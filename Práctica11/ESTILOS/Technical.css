@@ -1,0 +1,25 @@
+BODY
+{
+   background: url(Technical.gif);
+   background-color: white;
+   margin-left: 5%;
+   margin-right: 5%;
+   text-align: justify;
+   font-family: "Courier New", monospace;
+}
+h1
+{
+   color: #9ACD32;
+   font-family: "Tahoma", "Courier New", monospace;
+   text-align: center;
+}
+h2
+{
+   color: #B50039;
+   font-family: "Tahoma", "Courier New", monospace;
+}
+h3
+{
+   color: #B50039;
+   font-family: "Tahoma", "Courier New", monospace;
+}

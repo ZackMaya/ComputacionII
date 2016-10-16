@@ -1,0 +1,46 @@
+BODY
+      {
+         background-image: url(LiquidMetal.jpg);
+         margin-left: 5%;
+         margin-right: 5%;
+         font-size: 12pt;
+         font-family: "Franklin Gothic Medium", "Sans-Serif";
+         text-align: justify;
+      }
+      p, li
+      {
+         background-image: url(LiquidMetalLight.jpg);
+         padding: 1%;
+         border: inset;
+         list-style-position: inside;
+      }
+      h1
+      {
+         background-image: url(LiquidMetalLight.jpg);
+         padding: 1%;
+         border: outset;
+         color: #004080;
+         font-size: 24pt;
+         font-weight: normal;
+         font-family: "Bauhaus 93", "Braggadocio", "Impact", "Sans-Serif";
+      }
+      h2
+      {
+         background-image: url(LiquidMetalLight.jpg);
+         padding: 1%;
+         border: outset;
+         color: #004080;
+         font-size: 18pt;
+         font-weight: normal;
+         font-family: "Bauhaus 93", "Braggadocio", "Impact", "Sans-Serif";
+      }
+      h3
+      {
+         background-image: url(LiquidMetalLight.jpg);
+         padding: 1%;
+         border: outset;
+         color: #004080;
+         font-size: 14pt;
+         font-weight: normal;
+         font-family: "Bauhaus 93", "Braggadocio", "Impact", "Sans-Serif";
+      }

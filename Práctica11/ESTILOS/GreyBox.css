@@ -1,0 +1,74 @@
+body
+{
+   background-color: gray;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+p
+{
+   border-left: thin ridge;
+   border-right: thin ridge;
+   background-color: silver;
+   padding: 20px;
+   padding-bottom: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   text-align: justify;
+   font-family: "Arial Narrow", "Sans-Serif";
+}
+ol, ul
+{
+   border-left: thin ridge;
+   border-right: thin ridge;
+   background-color: silver;
+   padding: 20px;
+   padding-left: 40px;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: 0;
+   text-align: justify;
+   font-family: "Arial Narrow", "Sans-Serif";
+}
+h1
+{
+   background-color: rgb(230, 230, 200);
+   border: thin ridge;
+   padding: 20px;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: "Arial", "Sans-Serif";
+}
+h2
+{
+   border-left: thin ridge;
+   border-right: thin ridge;
+   background-color: silver;
+   padding: 20px;
+   padding-bottom: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: "Arial", "Sans-Serif";
+}
+address
+{
+   border: thin ridge;
+   border-top: none;
+   background-color: silver;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: "Arial", "Sans-Serif";
+}
+A:link
+{
+   text-decoration: none;
+}
+A:visited
+{
+   text-decoration: none;
+}
+A:active
+{
+   text-decoration: none;
+}

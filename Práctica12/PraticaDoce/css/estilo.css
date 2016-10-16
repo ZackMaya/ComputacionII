@@ -1,0 +1,126 @@
+body{
+	background-color: gray;
+	font-family: arial;
+	text-align: justify;
+	color: navy;
+}
+
+h2{
+	margin:0;
+	color:black;
+}
+
+h4{
+	color: white;
+}
+
+ul,li{
+	display: inline;
+}
+
+
+#contenedorGeneral{
+	width: 800px;
+	margin: 0px auto;
+	/*background-color: black;
+	color: white;*/
+}
+
+#encabezado{
+	background: orange;
+	width: 100%;
+	height: 50px;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	/*
+	background-color: green;
+	color:white;
+	width: 100%;
+	height: 200px;*/
+}
+
+#navegador{
+	background-color: black;
+	width: 800px;
+	text-align: left;
+	float: left;
+	/*
+	background-color: orange;
+	color: white;
+	width: 100%;
+	height: 100px;*/
+}
+
+#navegador li a{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: white;
+	text-decoration: none;
+	border-right: 5px solid blue;
+}
+
+#navegador li a:hover{
+	background-color: blue;
+}
+
+#cuerpoContenedor{
+	float: left;
+	width: 800px;
+	background: teal;
+	text-align: justify;
+	/*
+	background-color: red;
+	color: white;*/
+}
+
+#contenedor{
+	background: green;
+	padding: 10px 0px;
+	margin: 0 5px 0 0;
+	float: left;
+	width: 580px;
+	text-align: justify;
+	/*
+	background-color: skyblue;
+	width: 70%;
+	height: 800px;
+	position: inline;
+	float: left;
+	overflow: hidden;*/
+}
+
+#contenedor h1, #contenedor ul > li{
+	padding-left: 10px;
+}
+
+#contenedor p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#noticias{
+	float:right;
+	width: 200px;
+	padding:10px 5px;
+	/*
+	background-color: purple;
+	color:white;
+	width: 30%;
+	height: 800px;
+	float: left;*/
+
+}
+
+#piedepagina{
+	background:orange;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	/*
+	background-color: gold;
+	color:white;
+	width: 100%;
+	padding-bottom: 0px;*/
+}
+

@@ -1,0 +1,41 @@
+body
+{
+   background: url(oscilloscope.gif);
+   background-color: black;
+   margin-left: 25px;
+   margin-right: 25px;
+   color: #0d0;
+   font-size: 10pt;
+   font-family: "Small Fonts", sans-serif;
+}
+p, ol, ul, dl
+{
+   font-family: "Lucida Console", sans-serif;
+}
+h1
+{
+   color: #0f0;
+   font-size: 14pt;
+   font-family: "Andale Mono", sans-serif;
+}
+h2
+{
+   color: #0f0;
+   font-size: 12pt;
+   font-family: "Andale Mono", sans-serif;
+}
+h3
+{
+   color: #0f0;
+   font-size: 10pt;
+   font-family: "Andale Mono", sans-serif;
+}
+a:link
+{
+   color: #0f0;
+   text-decoration: blink underline;
+}
+a:visited
+{
+   color: #0d0
+}

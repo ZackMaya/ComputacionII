@@ -1,0 +1,31 @@
+body
+      {
+        background-color: silver;
+background-image: url(Granite.jpg);
+        margin-left: 5%;
+        margin-right: 5%;
+		font-size: 12pt;
+		font-family: "Wide Latin", "Serif";
+        text-align: justify;
+      }
+      p
+      {
+        background-image: url(Newsprint.jpg);
+        border: thin solid inset;
+        padding: 1%;
+      }
+      h1
+      {
+		font-size: 18pt;
+        text-align: center;
+      }
+      h2
+      {
+		font-size: 14pt;
+        text-align: center;
+      }
+      h3
+      {
+		font-size: 12pt;
+        text-align: center;
+      }

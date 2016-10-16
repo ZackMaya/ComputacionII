@@ -1,0 +1,28 @@
+BODY
+{
+   background: url(Scale.jpg);
+   background-color: #aab;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Cooper Black", "Arial Black", "Arial Black", "Sans-Serif";
+   text-align: justify;
+}
+h1
+{
+   color: #800080;
+   font-size: 24pt;
+   font-family: "Bauhaus 93", "Arial Black", "Sans-Serif";
+}
+h2
+{
+   color: #800080;
+   font-size: 18pt;
+   font-family: "Bauhaus 93", "Arial Black", "Sans-Serif";
+}
+h3
+{
+   color: #800080;
+   font-size: 14pt;
+   font-family: "Bauhaus 93", "Arial Black", "Sans-Serif";
+}

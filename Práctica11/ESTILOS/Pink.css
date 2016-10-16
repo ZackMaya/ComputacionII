@@ -1,0 +1,26 @@
+BODY
+{
+   background-color: #FFDBED;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 10pt;
+   font-family: "Lucida Calligraphy", "Serif";
+}
+h1
+{
+   color: #800040;
+   font-size: 24pt;
+   font-family: "Monotype Corsiva", "Serif";
+}
+h2
+{
+   color: #800040;
+   font-size:18pt;
+   font-family: "Monotype Corsiva", "Serif";
+}
+h3
+{
+   color: #800040;
+   font-size:14pt;
+   font-family: "Monotype Corsiva", "Serif";
+}

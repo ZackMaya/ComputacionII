@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prácticas</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./imagenes/favicon.ico">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--Para reconocer acentos y caracteres especiales-->
+	<!--estilo-->
+	<link rel="stylesheet" href="./css/estilo.css" />
+
+	<!--JQuery-->
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+	<!--Javascript-->
+	<!--Menu responsivo-->
+	<script>
+	function myFunction() {
+	    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+	}
+
+
+	/*Menu jquery*/
+	function openNav() {
+	    document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	    document.getElementById("myNav").style.width = "0%";
+	}
+
+    $(function() {
+    $( "#tabs" ).tabs();
+  	});
+	</script>
+
+</head>
+<body>
+<div id="pagina">	
+	<div id="header">
+	<!--menu-->
+	<ul class="topnav">
+	<a href="index.html"><li><img id="iconouacm" src="./imagenes/uacmlogo5.png" title="Social-UACM"></li></a>	
+	  	<li><a href="index.html">Inicio</a></li>	
+	  	<li><a href="eventos.html">Eventos</a></li>
+		  <li><a href="certificaciones.html">Certificaciones</a></li>
+		  <li><a href="ingenieria.html">Ing Software</a></li>
+		  <li><a href="practicas.html">Prácticas</a></li>
+		  <li><a href="sesion.html">Iniciar Sesión</a></li>
+		  <li><a href="registro.html">Registrate</a></li>
+
+		<a href="http://www.twitter.com/netozack" target="_blank" ><li><img id="iconos" src="./imagenes/iconotwitter.png" onmouseover="this.src='./imagenes/iconotwitter2.png';" onmouseout="this.src='./imagenes/iconotwitter.png';" title="Twitter"></li></a>
+		<a href="http://www.googleplus.com/ZackMaya" target="_blank"><li><img id="iconos" src="./imagenes/iconogoogle.png" onmouseover="this.src='./imagenes/iconogoogle2.png';" onmouseout="this.src='./imagenes/iconogoogle.png';" title="Google+"></li></a>
+  		<a href="https://www.facebook.com/uacemita" target="_blank"><li><img id="iconos" src="./imagenes/iconofacebook.png" onmouseover="this.src='./imagenes/iconofacebook2.png';" onmouseout="this.src='./imagenes/iconofacebook.png';" title="Facebook"></li></a>	
+		<a href="https://github.com/ZackMaya/SOCIAL-UACM.git" target="_blank"><li><img id="iconos" src="./imagenes/github1.png" onmouseover="this.src='./imagenes/github2.png';" onmouseout="this.src='./imagenes/github1.png';" title="Github"></li></a>
+	<!--menu repsonsivo-->
+	  <li class="icon">
+	    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+	  </li>
+	</ul>
+	</div>
+
+
+	<!--Complemento-->
+	<div id="cuerpo">
+		<!--PAra el traductor google-->
+  		<div id="traductor">
+			<div id="google_translate_element">
+				</div>
+					<script type="text/javascript">
+						function googleTranslateElementInit() {
+						new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
+					}
+					</script> 
+				<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">traductor</script>
+	</div><br><br>
+	</div>
+
+	<center><h2>Prácticas Computación II</h2></center><hr>
+	<!--Información-->
+
+
+	<div id="tabs">
+	  <ul>
+	    <li><a href="#tabs-1">P1</a></li>
+	    <li><a href="#tabs-2">P2</a></li>
+	    <li><a href="#tabs-3">P3</a></li>
+	    <li><a href="#tabs-4">P4</a></li>
+	    <li><a href="#tabs-5">P5</a></li>
+	    <li><a href="#tabs-6">P6</a></li>
+	    <li><a href="#tabs-7">P7</a></li>
+	    <li><a href="#tabs-8">P8</a></li>
+	    <li><a href="#tabs-9">P9</a></li>
+	    <li><a href="#tabs-10">P10</a></li>
+	    <li><a href="#tabs-11">P11</a></li>
+	    <li><a href="#tabs-12">P12</a></li>
+	    <li><a href="#tabs-13">P13</a></li>
+	    <li><a href="#tabs-14">Proyecto 1</a></li>
+	  </ul>
+	
+	<!--Parte del contenido de las prácticas-->
+
+	<!--Práctica 1-->
+	<div id="tabs-1" style="background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 18%, rgba(254,254,254,1) 34%, rgba(209,209,209,1) 72%, rgba(209,209,209,1) 100%);"> 
+		<marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/practica1.png" title="html" width="80px" height="50px" id="imagen">
+			<img src="./imagenes/practica1b.jpg" title="css" width="80px" height="50px" id="imagen">
+			<img src="./imagenes/practica1c.png" title="js" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA UNO. PÁGINA WEB CON HTML</h2>
+		    <ul>	
+		    	<li><a href="./Práctica1/PrácticaUno/practicaI.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica1/InvestigaciónUno/InvestigaciónUno.doc">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica1/EjercicioUno/ejercicio1.html" target="_blank">Ejercicio</a></li>
+				<li><a href="./Práctica1/PrácticaUno/Observaciones.txt" target="_blank">Notas</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black"> Esta práctica presenta una introducción al lenguaje de marcado HTML.</p>
+			<p style="color:black">El objetivo de esta práctica es familiarizarse con el lenguaje HTML, por lo que se trabajará con un editor llamada GEL que es un software libre que nos permite diseñar páginas web, aunque existen otros métodos para conseguir el mismo resultado (editores de HTML o conversores desde otras aplicaciones). Esta práctica consiste en comenzar a trabajar un micro sitio que se irá completando progresivamente.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 2-->
+	 <div id="tabs-2" style="background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 23%, rgba(246,41,12,1) 79%, rgba(240,47,23,1) 89%, rgba(231,56,39,1) 90%, rgba(231,56,39,1) 100%);">
+	 	 <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/atributos.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA DOS. ATRIBUTOS</h2>
+		    <ul>	
+		    	<li><a href="./Práctica2/PrácticaDos/Práctica 2.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica2/InvestigaciónDos/investigacion2.doc">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica2/EjercicioDos/ejercicio2.html" target="_blank">Ejercicio</a></li>
+				<li><a href="./Práctica2/PrácticaDos/Observaciones práctica 2.txt" target="_blank">Notas</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p> Esta práctica presenta una introducción a la descripción de los atributos en html</p>
+			<p>El objetivo de esta práctica es el uso de algunos atributos básicos para el texto y el
+			fondo del documento, así como revisar la codificación de color en HTML.</p>
+		</div>
+	 </div>
+
+
+	<!--Práctica 3-->
+	 <div id="tabs-3" style="background: -moz-linear-gradient(left, rgba(98,125,77,1) 20%, rgba(84,111,63,1) 34%, rgba(63,91,41,1) 55%, rgba(31,59,8,1) 87%);">
+	   <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/link.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA TRES. IMÁGENES E HIPERENLACES</h2>
+		    <ul>	
+		    	<li><a href="./Práctica3/practicaTres/practica3.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica3/InvestigacionTres/investigacion.docx">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica3/ejercicioTres/ejercicioIII.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p> Esta práctica presenta una introducción a las imagenes e hiperenlaces</p>
+			<p>El objetivo de esta práctica es familiarizarse con el uso de imágenes e hiperenlaces, por lo que veremos como utilizarlos, modificarlos y agregarlos en un micrositio utilizando las etiquetas de HTML. Estos son dos de los elementos más importantes y utilizando en cualquier página web que sea diseñada.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 4-->
+	<div id="tabs-4" style="background:-moz-linear-gradient(left, rgba(32,124,229,1) 9%, rgba(73,155,234,1) 21%,rgba(73,155,234,1) 45%,rgba(73,155,234,1) 84%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/tabla.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA CUATRO. TABLAS</h2>
+		    <ul>	
+		    	<li><a href="./Práctica4/practica Cuatro/practica4.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica4/investigacion Cuatro/investigacion.docx" target="_blank">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica4/ejercicio Cuatro/ejercicioPropuesto4.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p> Esta práctica presenta la descripción de tablas</p>
+			<p>El objetivo de esta práctica es conocer las etiquetas que nos permitan la creación de tablas y como establecer sus propiedades. Este elemento nos permite distribuir mejor la presentación de la información y poder ubicar los diferentes aspectos del diseño de nuestra página.</p>
+		</div>
+	</div>
+
+
+
+	<!--Práctica 5-->	
+	<div id="tabs-5" style="background: -moz-linear-gradient(left, rgba(252,205,77,1) 0%, rgba(252,205,77,1) 7%, rgba(248,181,0,1) 20%, rgba(249,199,64,1) 35%, rgba(252,234,187,1) 64%, rgba(251,223,147,1) 93%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/figura.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA CINCO. MAPAS DE IMAGENES</h2>
+		    <ul>	
+		    	<li><a href="./Práctica5/practicaCinco/practica05.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica5/investigaciónCinco/investigacionCinco.docx" target="_blank">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica5/ejercicioCinco/ejercicioCinco.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black"> Esta práctica presenta la interacción con el mapa de imagenes</p>
+			<p style="color:black">El objetivo de esta práctica es conocer las etiquetas que nos permiten la creación y el uso de mapas de imagenes por lo que veremos cual es su función al ser incorporados dentro de un micro sitio y como crearlos.</p>
+		</div>
+	</div>
+
+	<!--Práctica 6-->
+	<div id="tabs-6" style="background: -moz-linear-gradient(left,rgba(255,175,75,1) 35%,rgba(255,175,75,1) 60%,rgba(255,151,21,1) 80%,rgba(255,146,10,1) 84%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/formulario.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA SEIS. FORMULARIOS</h2>
+		    <ul>	
+		    	<li><a href="./Práctica6/PracticaSeis/practica06.html" target="_blank">Práctica</a></li>
+		    	<li><a href="./Práctica6/InvestigaciónSeis/investigacionSeis.docx" target="_blank">Investigación Archivo</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica6/EjercicioSeis/ejercicioSeis.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black"> Esta práctica presenta como realizar un formulario tanto con html y google formularios</p>
+			<p style="color:black"> El objetivo de esta práctica es familiarizarse con el uso de formularios por lo que veremos para que sirven y como crearlos. Este es uno de los elementos más importantes para recopilar datos desde cualquier sitio web.
+			Además conoceremos la serie de controles que podemos incorporar a nuestras páginas web y las ventajas que tenemos al incorporarlos correctamente.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 7-->
+	<div id="tabs-7" style="background: -moz-linear-gradient(left, rgba(98,125,77,1) 6%, rgba(32,60,9,1) 87%, rgba(31,59,8,1) 88%, rgba(31,59,8,1) 98%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/marco.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA SIETE. MARCOS </h2>
+		    <ul>	
+		    	<li><a href="./Práctica7/PrácticaSiete/practicaVIIa/practicaSieteA.html" target="_blank">Práctica "A"</a></li>
+		    	<li><a href="./Práctica7/PrácticaSiete/practicaVIIb/practicaSieteB.html" target="_blank">Práctica "B"</a></li>
+		    	<li><a href="./Práctica7/PrácticaSiete/practicaVIIc/practicaSieteC.html" target="_blank">Práctica "C"</a></li>
+		    	<li><a href="./Práctica7/InvestigaciónSiete/investigacionSiete.docx" target="_blank">Investigación </a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica7/EjercicioSiete/ejercicioSieteA/ejercicioSiete.html" target="_blank">Ejercicio "A"</a></li>
+				<li><a href="./Práctica7/EjercicioSiete/ejercicioSieteB/ejercicioSieteB.html" target="_blank">Ejercicio "B"</a></li>
+				<li><a href="./Práctica7/EjercicioSiete/ejercicioSieteC/ejercicioSieteC.html" target="_blank">Ejercicio "C"</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p> Esta práctica muestra como poner marcos en una página web</p>
+			<p>El primer objetivo de esta práctica es familiarizarse con el uso de los marcos y posteriormente ubicar la forma de como podemos mostrar en un marco información dinámica y estática.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 8-->
+	<div id="tabs-8" style="background: -moz-linear-gradient(left, rgba(0,66,166,1) 17%, rgba(0,66,166,1) 21%, rgba(180,56,164,1) 76%, rgba(219,54,164,1) 88%, rgba(193,70,161,1) 94%, rgba(203,96,179,1) 98%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/marca.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA OCHO. MARQUESINAS Y LISTAS </h2>
+		    <ul>	
+		    	<li><a href="./Práctica8/PrácticaOcho/practicaOcho.html" target="_blank">Práctica </a></li>
+		    	<li><a href="./Práctica8/InvestigaciónOcho/investigacionOcho.docx" target="_blank">Investigación</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica8/EjercicioOcho/Ejercicio de Marquesinas/prueba.html" target="_blank">Ejercicio ejemplo</a></li>
+				<li><a href="./Práctica8/EjercicioOcho/ejercicioOcho.html" target="_blank">Ejercicio </a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p> Esta práctica muestra como insertar marquesinas y direfrentes tipos de listas</p>
+			<p>El objetivo de esta práctica es trabajar con dos elementos que nos darán un mejor aspecto a la información que será visualizada en nuestra página web, es por ello que conoceremos el uso de marquesinas y listas numeradas y no numeradas.
+			Adicionalmente en esta práctica exploraremos las posibilidades que nos ofrece HTML en cuestión de tratamiento de textos, aplicando movimiento a los mismos o simplemente para definir un texto para citar, numerar o generar una lista.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 9-->
+	<div id="tabs-9" style="background: -moz-linear-gradient(left, rgba(210,255,82,1) 16%, rgba(54,217,184,1) 43%, rgba(134,236,132,1) 63%, rgba(202,253,87,1) 80%, rgba(210,255,82,1) 82%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/multi.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA NUEVE. DISEÑO DE ELEMENTOS MULTIMEDIA</h2>
+		    <!--<ul>	
+		    	<li><a href="./Práctica9/PrácticaNueve/practicaNueve.html" target="_blank">Práctica </a></li>
+		    	<li><a href="./Práctica9/InvestigaciónNueve/InvestigaciónNueve.docx" target="_blank">Investigación</a></li>
+		    	<li><a href="#">Investigación Vista</a></li>
+				<li><a href="./Práctica9/PrácticaNueve/EjercicioNueve/practicaNueveEjercicio.html" target="_blank">Ejercicio</a></li>
+			</ul>-->
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black"> Esta práctica es un acercamiento a realizar recursos propios multimedia</p>
+			<p style="color:black">El objetivo de esta práctica es explorar software que nos permita crear y diseñar videos, sonidos y animaciones.
+			Adicionalmente desarrollaremos actividades para crear y diseñar nuestros propios elementos multimedia.
+			En esta práctica no se requierio hacer una página web simplemente se usaron software para crear recursos multimedia.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 10-->
+	<div id="tabs-10" style="background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 0%, rgba(255,152,84,1) 46%, rgba(232,195,170,1) 76%, rgba(216,225,231,1) 97%, rgba(216,225,231,1) 100%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/multimedia.jpg" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA DIEZ. ELEMENTOS MULTIMEDIA</h2>
+		    <ul>	
+		    	<li><a href="./Práctica10/PrácticaDiez/practicadiez.html" target="_blank">Práctica "A"</a></li>
+		    	<li><a href="./Práctica10/PrácticaDiez/practicadiezb.html" target="_blank">Práctica "B"</a></li>
+		    	<li><a href="./Práctica10/PrácticaDiez/practicadiezc.html" target="_blank">Práctica "C"</a></li>
+				<li><a href="./Práctica10/InvestigacionDiez/investigacion10.docx" target="_blank">Investigación</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica10/EjercicioDiez/ejerciciodiez.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black">Se conoce como es que los elementos multimedia son importantes en una pagina web</p>
+			<p style="color:black">El objetivo de esta práctica es aprender a utilizar uno de los recursos más importantes dentro del diseño de páginas de Internet. Esto es insertar objetos de tipo multimedia dentro de un documento HTML. Una página de Internet que tiene un manejo adecuado de elementos multimedia, resulta muy llamativa para sus visitantes.
+			Esto permite que el mensaje de la página, sea recibido adecuadamente por aquellos que la consultan.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 11-->
+	<div id="tabs-11" style="background: -moz-linear-gradient(left, rgba(143,2,34,1) 10%, rgba(13,1,4,1) 77%, rgba(20,1,6,1) 78%, rgba(68,0,16,1) 85%, rgba(109,0,25,1) 91%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/hoja.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA ONCE. HOJAS DE ESTILO</h2>
+		    <ul>	
+		    	<li><a href="./Práctica11/practicaOnce/practicaOnce.html" target="_blank">Práctica "A"</a></li>
+		    	<li><a href="./Práctica11/practicaOnce/practicaOnceb.html" target="_blank">Práctica "B"</a></li>
+		    	<li><a href="./Práctica11/practicaOnce/practicaOncec.html" target="_blank">Práctica "C"</a></li>
+		    	<li><a href="./Práctica11/practicaOnce/practicaOncec2.html" target="_blank">Práctica "2 C"</a></li>
+				<li><a href="./Práctica11/investigacionOnce/investigacionOnce.docx" target="_blank">Investigación</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica11/EjercicioOnce/ejercicioOnce.html" target="_blank">Ejercicio "A"</a></li>
+				<li><a href="./Práctica11/EjercicioOnce/ejercicioOnceb.html" target="_blank">Ejercicio "B"</a></li>
+				<li><a href="./Práctica11/EjercicioOnce/ejercicioOncec.html" target="_blank">Ejercicio "C"</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p>El objetivo de esta práctica es conocer ampliamente el uso de las hojas de estilo para diseñar, construir y analizar el código css para definir el estilo y formato de las páginas de Internet.
+			Aprender a utilizar las CSS con las Capas que ofrece el lenguaje HTML, para desarrollar páginas web basadas en posicionamiento de capas, que ofrecen páginas más dinámicas y flexibles..</p>
+		</div>
+	</div>
+
+
+
+	<!--Práctica 12-->
+	<div id="tabs-12" style="background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(203,172,123,1) 27%, rgba(193,158,103,1) 34%, rgba(183,142,78,1) 59%, rgba(182,141,76,1) 61%, rgba(209,130,11,1) 73%, rgba(193,158,103,1) 100%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/css.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2 style="color:black">PRÁCTICA DOCE. GUIA RAPIDA DE CSS Y MANEJO DE CAPAS.</h2>
+		    <ul>	
+		    	<li><a href="./Práctica12/PraticaDoce/practicadoce.html" target="_blank">Práctica</a></li>
+				<li><a href="./Práctica12/InvestigacionDoce/investigacionDoce.docx" target="_blank">Investigación</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica12/EjercicioDoce/ejercicioDoce.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p style="color:black">El objetivo de esta práctica es conocer ampliamente el uso de las hojas de estilo para diseñar, construir y analizar el código css para definir el estilo y formato de las páginas de Internet.
+			Aprender a utilizar las CSS con las Capas que ofrece el lenguaje HTML, para desarrollar páginas web basadas en posicionamiento de capas, que ofrecen páginas más dinámicas y flexibles.</p>
+		</div>
+	</div>
+
+	<!--Práctica 13-->
+	<div id="tabs-13" style="background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 6%, rgba(43,43,43,1) 7%, rgba(28,28,28,1) 17%, rgba(43,43,43,1) 31%, rgba(102,102,102,1) 39%, rgba(29,29,29,1) 57%, rgba(17,17,17,1) 60%, rgba(89,89,89,1) 70%, rgba(71,71,71,1) 82%, rgba(0,0,0,1) 86%, rgba(19,19,19,1) 95%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/practica1c.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PRÁCTICA TRECE. INTRODUCCIÓN A JAVASCRIPT.</h2>
+		    <ul>	
+		    	<li><a href="./Práctica13/PracticaTrece/practicatrece.html" target="_blank">Práctica "A"</a></li>
+		    	<li><a href="./Práctica13/PracticaTrece/practicatrececm.html" target="_blank">Práctica "B"</a></li>
+				<li><a href="" target="_blank">Investigación</a></li>
+		    	<!--<li><a href="#">Investigación Vista</a></li>-->
+				<li><a href="./Práctica13/EjercicioTrece/ejerciciotrece.html" target="_blank">Ejercicio</a></li>
+			</ul>
+		</div>
+
+		<div id="informacionpractica">
+			<p>En esta práctica se introducirá el concepto del lenguaje de programación Javascript, aplicado a páginas de Internet a un nivel muy elemental. Se planteara de tal manera que aun sin conocimientos de programación se podrán utilizar los códigos aquí expuestos.</p>
+		</div>
+	</div>
+
+
+	<!--Práctica 13-->
+	<div id="tabs-14" style="background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 6%, rgba(43,43,43,1) 7%, rgba(28,28,28,1) 17%, rgba(43,43,43,1) 31%, rgba(102,102,102,1) 39%, rgba(29,29,29,1) 57%, rgba(17,17,17,1) 60%, rgba(89,89,89,1) 70%, rgba(71,71,71,1) 82%, rgba(0,0,0,1) 86%, rgba(19,19,19,1) 95%);">
+	  <marquee behavior="scroll" loop="infinite">
+			<img src="./imagenes/practica1c.png" title="html" width="80px" height="50px" id="imagen">
+		</marquee>
+		<div id="menu"><hr>
+			<h2>PROYECTO 1</h2>
+		    
+		</div>
+
+		<div id="informacionpractica">
+			<a href="./proyecto1/index.html" target="_blank"><p>Este enlace pertenece al proyecto uno de la materia de Computación II.</p></a>
+		</div>
+	</div>
+
+
+
+	<br>
+	<hr>
+
+
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="copyright">
+			<li>2016 Social-UACM. Open Source | <a href="https://github.com/ZackMaya/SOCIAL-UACM.git" target="_blank">Github</a></li>
+					
+			<li>Diseño: <a href="mailto:netozack@hotmail.com" target="_blank">Ernesto Z. Maya</a><br>
+
+				<a href="http://www.twitter.com/netozack" target="_blank" ><img id="iconos" src="./imagenes/iconotwitter.png" onmouseover="this.src='./imagenes/iconotwitter2.png';" onmouseout="this.src='./imagenes/iconotwitter.png';" title="Twitter"></a>
+						
+				<a href="http://www.googleplus.com/ZackMaya" target="_blank"><img id="iconos" src="./imagenes/iconogoogle.png" onmouseover="this.src='./imagenes/iconogoogle2.png';" onmouseout="this.src='./imagenes/iconogoogle.png';" title="Google+"></a>
+
+  				<a href="https://www.facebook.com/netozack" target="_blank"><img id="iconos" src="./imagenes/iconofacebook.png" onmouseover="this.src='./imagenes/iconofacebook2.png';" onmouseout="this.src='./imagenes/iconofacebook.png';" title="Facebook"></a>
+  			</li>
+			<li>Recursos: Open source | <a href="https://www.uacm.edu.mx" target="_blank">UACM | <a href="mailto:netozack@hotmail.com" target="_blank">Ernesto Z. Maya</a></li>
+					<a href="#"><img id="iconos" src="./imagenes/flecha3d.png"></a>
+
+		</ul>
+	</footer>
+
+</div>
+</body>
+</html>

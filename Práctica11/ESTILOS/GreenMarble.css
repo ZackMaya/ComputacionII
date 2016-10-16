@@ -1,0 +1,27 @@
+BODY
+      {
+         background-color: white;
+background-image: url(GreenMarble.jpg);
+         background-position: top left;
+         background-repeat: repeat-y;
+         margin-left: 170px;
+         margin-right: 5%;
+         font-size: 12pt;
+         font-family: "Garamond", "Serif";
+         text-align: justify;
+      }
+      h1
+      {
+         color: #0A3112;
+         font-size:24pt;
+      }
+      h2
+      {
+         color: #0A3112;
+         font-size:18pt;
+      }
+      h3
+      {
+         color: #0A3112;
+         font-size:14pt;
+      }

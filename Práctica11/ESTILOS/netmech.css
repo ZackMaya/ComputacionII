@@ -1,0 +1,122 @@
+/* start default css */
+BODY {color: black;	 font-family: arial,helvetica,sans-serif; font-size: 12px; background:#ffffff}
+HR {height : 1px; color: navy;}
+P, TABLE, TD, TH, DIV, FORM, LI, UL, OL, H1, H2, H4, CENTER, DD, DT, BLOCKQUOTE {font-family: arial,helvetica,sans-serif; font-size: 12px;}
+TD.mission {font-family: arial,helvetica,sans-serif; font-size: 16px; font-weight:bold;}
+DIV.mission2 {font-family: arial,helvetica,sans-serif; font-size: 16px; font-weight:bold;}
+A:LINK {color: #0000ff; text-decoration: underline; font-size: 12px; font-weight : normal;}
+A:VISITED {color : purple; text-decoration : underline;	font-size: 12px; font-weight : normal;}
+A:HOVER, A:ACTIVE {color : #ff0000;	text-decoration : underline; font-size: 12px; font-weight : normal;}
+A.breadcrumbs:LINK, A.breadcrumbs:VISITED {color : #0000ff; font-family : Arial, Helvetica, sans-serif; ; font-weight:bold; font-size: 10px; text-decoration: underline;}
+A.breadcrumbs:HOVER, A.breadcrumbs:ACTIVE {color : #ff0000; font-family : Arial, Helvetica, sans-serif; ; font-weight:bold; font-size: 10px; text-decoration: underline; background-color : yellow;}
+TD.breadcrumbs {color : #000000; font-family : Arial, Helvetica, sans-serif; font-weight:bold; font-size: 10px;}
+TD.bigred {font-family: arial,helvetica,sans-serif; font-size: 16px; font-weight:bold; color : #ff0000;}
+TD.bigred2 {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color : #ff0000;}
+TD.bigwhite {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color : #ffffff;}
+TD.bigblack {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold;}
+SPAN.biggreen { font-family : arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color : #008800;}
+TD.htmlrepaircode {font-family: courier; font-size: 12px;}
+A.buyit:LINK {color: #0000ff; text-decoration: underline; font-size: 12px; font-weight:bold;}
+A.buyit:VISITED {color : purple; text-decoration : underline;	font-size: 12px; font-weight:bold;}
+A.buyit:HOVER, A.buyit:ACTIVE {color : #ff0000;	text-decoration : underline; font-size: 12px; font-weight:bold;}
+TD.buyit {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold;}
+.homepagelilblue {font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight:bold; color : #0000a0;}
+.fourteen {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold;}
+/* end default css */
+/**/
+/**/
+/**/
+/* start header css */
+A.header:LINK, A.header:VISITED {font-family : arial,helvetica,sans-serif; font-size: 10px;	font-weight:bold; color : #000000;}
+A.header:HOVER, A.header:ACTIVE {font-family : arial,helvetica,sans-serif; font-size: 10px;	font-weight:bold; color : #ff0000; background-color : yellow;}
+TD.header2 {font-family : arial,helvetica,sans-serif; font-size: 12px; color: #ff0000; font-weight:bold;}
+TD.topnavbar {text-align : center; font-family : arial,helvetica,sans-serif; color: #000066; font-size: 22px; font-weight:bold;}
+/* end header css */
+/**/
+/**/
+/**/
+/* begin footer css */
+TD.newsletter {font-family : arial,helvetica,sans-serif;  font-size: 12px;}
+TD.newslettertitle {font-family : arial,helvetica,sans-serif;  font-size: 18px; color : #1d1867; font-weight:bold;}
+A.newslettertitle:VISITED, A.newslettertitle:LINK {font-family : arial,helvetica,sans-serif;  font-size: 18px; color : #1d1867; font-weight:bold; text-decoration: none;}
+A.newslettertitle:HOVER, A.newslettertitle:ACTIVE {font-family : arial,helvetica,sans-serif;  font-size: 18px; color : #ff0000; font-weight:bold; text-decoration: none;}
+/* end footer css */
+/**/
+/**/
+/**/
+/* start right navbar css */
+TD.rightnavbartitle {text-align : center; font-family : arial,helvetica,sans-serif;	color: #000066; font-size: 11px; font-weight:bold;}
+A.rightnavbarcontent:LINK {color : #0000ff; font-family : arial,helvetica,sans-serif; font-size: 10px; font-weight:bold;}
+A.rightnavbarcontent:VISITED {color : purple; font-family : arial,helvetica,sans-serif;  font-size: 10px; font-weight:bold;}
+A.rightnavbarcontent:HOVER, A.rightnavbarcontent:ACTIVE {color : #ff0000; font-family : arial,helvetica,sans-serif; font-size: 10px; font-weight:bold; background-color : yellow;}
+/* end right navbar css */
+/**/
+/**/
+/**/
+/* start index css */
+A.highlight:LINK, A.highlight:VISITED {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold; color: #ff0000; text-decoration: none;}
+A.highlight:HOVER, A.highlight:ACTIVE {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold; color: #ff0000; text-decoration: underline; background-color : yellow;}
+/* end index css */
+/**/
+/**/
+/**/
+/* start section homepages css */
+DIV.tesstimonial { font-family : arial,helvetica,sans-serif; font-size: 12px; color : #ff6666; font-weight:bold;}
+P.tesstimonial { font-family : arial,helvetica,sans-serif; font-size: 12px; color : #ff6666;}
+SPAN.bigger { font-family : arial,helvetica,sans-serif; font-size: 16px; font-weight:bold;}
+SPAN.smaller { font-family : arial,helvetica,sans-serif; font-size: 10px; font-weight:bold;}
+/* end section homepages css */
+/**/
+/**/
+/**/
+/* start newsletter css */
+A.pastissues:LINK, A.pastissues:VISITED {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold; color: #000000; text-decoration: none;}
+A.pastissues:HOVER, A.pastissues:ACTIVE {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold; color: #000000; text-decoration: underline; background-color : yellow;}
+A.pastissuesred:LINK, A.pastissuesred:VISITED {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold; color: #ff0000; text-decoration: none;}
+A.pastissuesred:HOVER, A.pastissuesred:ACTIVE {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold; color: #ff0000; text-decoration: underline; background-color : yellow;}
+TD.newsletterheader {font-family : arial,helvetica,sans-serif; font-size: 24px; color: #000066; font-weight:bold;}
+TD.newsletterpastissues {font-family : arial,helvetica,sans-serif; font-size: 12px;}
+TD.newslettercurrent {font-family : arial,helvetica,sans-serif;  font-size: 12px; color: #ffffff;}
+P.newslettertitle {font-family : arial,helvetica,sans-serif; font-size: 16px; font-weight:bold;}
+P.thanks {font-family : arial,helvetica,sans-serif; font-size: 18px; font-weight:bold;}
+A.thanks:LINK {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color: #0000ff; text-decoration: underline;}
+A.thanks:VISITED {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color: purple; text-decoration: underline;}
+A.thanks:HOVER, A.thanks:ACTIVE {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold; color: #ff0000; text-decoration: underline;}
+PRE.news {font-family :Courier New, Serif; font-size: 14px; font-weight:bold;}
+BLOCKQUOTE.news {font-family : arial,helvetica,sans-serif; font-size: 12px; font-weight:bold; color: #ff0000;}
+CAPTION.news {font-family :Courier New, Serif; font-size: 14px; font-weight:bold;}
+TD.searchbar {font-family : arial,helvetica,sans-serif; font-size: 12px; color: #ffffff; font-weight:bold;}
+/* end newsletter css */
+/**/
+/**/
+/**/
+/* start press css */
+P.bigpress {font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight:bold;}
+P.presstitle {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold;}
+/* end press css */
+/* user support css */
+P.supporttitle {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold;}
+/* end user support css */
+/* General purpose headlines */
+/*!!! Do not change !!!*/
+.headline {font-family: arial,helvetica,sans-serif; font-size: 18px; font-weight:bold;}
+.sectionheading {font-family: arial,helvetica,sans-serif; font-size: 16px; font-weight:bold;}
+.boldnormal {font-family: arial,helvetica,sans-serif; font-size: 12px; font-weight:bold;}
+/* end general purpose headlines */
+/**/
+/* start table comparison box css */
+.tableshadeA {background-color:#f0f5ff;}
+.tableshadeB {background-color:#c2d6ff;}
+.tableshadeA_top {background-color:#d1e0ff;}
+.tableshadeB_top {background-color:#a3c2ff;}
+.tableborder {border: 2px solid #003399;}
+.check {background-image: url("http://images.netmechanic.com/images/webtools/checkbox.gif");}
+.nocheck {background-image: url("http://images.netmechanic.com/images/webtools/emptycheckbox.gif");}
+/* end table comparison box css */
+/**/
+/**/
+A.noline:HOVER, A.noline:ACTIVE, A.noline:LINK, A.noline:VISITED {color : #0000ff;	text-decoration : none; font-size: 12px; font-weight : bold;}
+A.glossary:LINK, A.glossary:VISITED {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold; color: #003399; text-decoration: underline;}
+A.glossary:HOVER, A.glossary:ACTIVE {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold; color: #ff0000; text-decoration: underline; background-color : yellow;}
+DT.glossary {font-family: arial,helvetica,sans-serif; font-size: 16px; font-weight:bold; color: #003399;}
+SPAN.glossary {font-family: arial,helvetica,sans-serif; font-size: 14px; font-weight:bold; color: #FF0000}

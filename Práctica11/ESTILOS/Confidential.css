@@ -1,0 +1,32 @@
+body
+      {
+         background-image: url(Confidential.gif);
+         background-position: top left;
+         margin-left: 5%;
+         margin-right: 5%;
+         border: solid;
+         font-size: 12pt;
+         font-family: "Rockwell", "Courier";
+         text-align: justify;
+      }
+      p
+      {
+        border: thin solid;
+        padding: 1%;
+        background-color: white;
+      }
+      h1
+      {
+         color: red;
+         font-size: 24pt;
+      }
+      h2
+      {
+         color: red;
+         font-size: 18pt;
+      }
+      h3
+      {
+         color: red;
+         font-size: 14pt;
+      }

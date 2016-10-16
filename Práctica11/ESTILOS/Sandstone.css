@@ -1,0 +1,80 @@
+BODY
+{
+   background-image: url(Sandstone.jpg);
+   background-color: #b99;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Times New Roman", serif;
+   text-align: justify;
+}
+p
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 1%;
+   border: thin solid;
+}
+ul, ol, dl
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 20px;
+   padding-left: 40px;
+   border: thin solid;
+}
+blockquote
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 1%;
+   font-style: italic;
+   border: thin solid;
+}
+address
+{
+   color: white;
+}
+a:link
+{
+   color: red;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #800;
+   text-decoration: none;
+}
+h1
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 1%;
+   border: thick double;
+   margin-left: 10%;
+   margin-right: 10%;
+   color: #422;
+   font-size: 18pt;
+   font-family: "Perpetua Titling MT", "Garamond", "Serif";
+   text-align: center;
+}
+h2
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 1%;
+   border: thick double;
+   margin-left: 20%;
+   margin-right: 20%;
+   color: #422;
+   font-size: 14pt;
+   font-family: "Perpetua Titling MT", "Garamond", "Serif";
+   text-align: center;
+}
+h3
+{
+   background-image: url(LightSandstone.jpg);
+   padding: 1%;
+   border: thick double;
+   margin-left: 30%;
+   margin-right: 30%;
+   color: #422;
+   font-size: 12pt;
+   font-family: "Perpetua Titling MT", "Garamond", "Serif";
+   text-align: center;
+}

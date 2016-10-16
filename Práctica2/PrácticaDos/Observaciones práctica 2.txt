@@ -1,0 +1,10 @@
+Observaciones práctica 2
+
+Paso 10.Con las etiquetas hechas se muestra una página web con color definido dentro del cuerpo del documento
+que fue de color verde. Además de que los dos textos "Septiembre" y "mes de la patria" aparecen de acuerdo con los h1 y h6 de diferente tamaño.
+
+
+Paso 11.Se muestras dos lineas una blanca y otra de color roja en forma horizontal con un ajuste de tamaño del 50%
+de la página web.
+
+Paso 14. Se muestra una notación camello en las letras donde aplicamos la etiqueta font y su atributo size, esto con 7 tipos de tamaño.

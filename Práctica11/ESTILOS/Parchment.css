@@ -1,0 +1,31 @@
+BODY
+{
+   background: url(Parchment.jpg);
+   background-color: #ffd;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: "Matura MT Script Capitals", "Serif";
+   text-align: justify;
+}
+h1
+{
+   color: #004000;
+   font-size:24pt;
+   font-family: "Lucida Blackletter", "Serif";
+   text-align: center;
+}
+h2
+{
+   color: #004000;
+   font-size:18pt;
+   font-family: "Lucida Blackletter", "Serif";
+   text-align: center;
+}
+h3
+{
+   color: #004000;
+   font-size:14pt;
+   font-family: "Lucida Blackletter", "Serif";
+   text-align: center;
+}

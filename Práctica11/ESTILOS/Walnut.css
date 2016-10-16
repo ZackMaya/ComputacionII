@@ -1,0 +1,23 @@
+body
+{
+   background: url(Walnut.jpg);
+   margin-left: 5%;
+   margin-right: 5%;
+   color: #CEBEB0;
+   font-family: "Tempus Sans ITC", Garamond, serif;
+}
+P
+{
+   color: white;
+   text-align: justify;
+}
+a:link
+{
+   color: #ff0;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #da0;
+   text-decoration: none;
+}

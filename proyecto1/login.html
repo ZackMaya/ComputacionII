@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colegio de Ciencia y Tecnología UACM Proyecto 1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--Para reconocer acentos y caracteres especiales-->
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <!--Simbolos especiales como acentos y ñ´s-->
+  <meta name="Proyecto 1" content="Proyecto de Computación II" />
+
+  <!--estilo de la página-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="css/skel.css" />
+
+  <!--Estilos para redes sociales panel lateral-->
+  <link href="./css/iconic.css" media="screen" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./css/redesSociales.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+</head>
+<body>
+  
+
+
+    <!-- Cabecera -->
+      <header id="header" class="skel-layers-fixed">
+        <h1 id="uacm"><a href="http://www.uacm.edu.mx" target="_blank">UACM</a><br></h1>
+        <nav id="nav">
+          <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="ingenieriaSoftware.html" class="button special">Proyecto 1</a></li>
+          </ul>
+        </nav>
+      </header><br><br><br>
+
+      <!--Redes Sociales-->
+      <div class="social">
+        <ul>
+          <li><a href="http://www.facebook.com/netozack" target="_blank" class="icon-facebook" title="Facebook"></a></li>
+          <li><a href="http://www.twitter.com/netozack" target="_blank" class="icon-twitter" title="Twitter"></a></li>
+          <li><a href="http://www.googleplus.com/ZackMaya" target="_blank" class="icon-google-plus" title="Google+"></a></li>
+          <li><a href="mailto:netozack@hotmail.com" class="icon-mail2" title="Mail"></a></li>
+        </ul>
+      </div>
+
+      <form action = "loginAdministrador.php" method = "POST">
+
+        <fieldset>
+          <h2>Login Usuario<br><br>
+
+
+            <div class="form-group">
+               <input type = "text" name = "email" id="email" placeholder = "Corre Electrónico" title = "Se necesita un usuario" required="required" class="form-control input-lg">
+            </div>
+            <div class="form-group">
+               <input type = "password" name = "password" id="password" placeholder = "Password" title = "Se necesita un password" required="required" class="form-control input-lg">
+            </div>
+
+
+           <div class="row">
+            
+            <div>
+              <input type="submit" name="Submit" value="Aceptar" >
+            </div>
+
+            <div> <a href="ingenieriaSoftware.html" >Regresar</a> 
+            </div>
+
+          </div>
+        </fieldset>
+      </form>
+
+
+
+    
+    <!-- Footer -->
+      <footer id="footer">
+      <ul class="copyright">
+        <img src="./imagenes/mooc3.jpg" width="100px" height="40px">
+            <li>Copyright © 2016 UACM-Computación II. Todos los Derechos Reservados.</li>
+            <li>Diseño: <a href="mailto:netozack@hotmail.com" target="_blank">Ernesto Z. Maya</a></li>
+          </ul>
+          <!--Fecha-->
+            <center><h6>Fecha: <script>
+            var f = new Date();
+            document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+            </script></h6></center>
+      </footer>
+</body>
+</html>
+      

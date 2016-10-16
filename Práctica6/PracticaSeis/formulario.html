@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>práctica 6 formulario</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--Para reconocer acentos y caracteres especiales-->
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<!--Simbolos especiales como acentos y ñ´s-->
+	<meta name="práctica 6" content="Formularios" />
+
+	<!--CSS-->
+	<link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body>
+	<center><a href="http://www.uacm.edu.mx" target="_blank"><img src="./imagenes/uacm.jpg" width="100px" heigth="100px"></a><br><br><br>
+
+	<h1>UNIVERSIDAD AUTÓNOMA DE LA CIUDAD DE MÉXICO</h1>
+	<h2>EJEMPLO DE FORMULARIO.</h2></center>
+
+	<br><div class="container"><section>
+	<form action="mailto:netozack@hotmail.com" method="post" enctype="text/plain">
+		Introduzca su nombre de usuario: <input type="text" name="usuario" size="20"><br><br>
+		Introduzca su contraseña: <input type="password" name="contrasenia" size="20"><br><br>
+		
+		¿Cómo llegó hasta aquí?
+		<select name="vias" size="1">
+		<option>Al azar</option>
+		<option>Alguien le indicó la página URL</option>
+			<optgroup label="A través de un programa buscador">
+				<option>Google
+				<option>Yahoo
+				<option>Otro
+			</optgroup>		
+		<option>Mediante un enlace desde otra página</option>
+		</select>
+		<br><br>
+
+		Paso 14. Introduzca una lista de opciones múltiples.<br>
+		<input type="checkbox" name="opcion1" checked>Material audiovisual<br>
+		<input type="checkbox" name="opcion2" value="on" checked>Textos electrónicos<br>
+		<input type="checkbox" name="opcion3" checked>Libros de Texto<br>
+		<input type="checkbox" name="opcion4" value="on" checked>Diseños curriculares<br>
+		<input type="checkbox" name="opcion5" checked>Legislacion Educativa<br>
+
+		<br><br> Sexo<br><br>
+		<input type="radio" name="sexo" value="Hombre" checked>Hombre<br>
+		<input type="radio" name="sexo" value="Mujer">Mujer<br>
+
+
+		<br> Comentarios:<br>
+		<textarea cols="40" rows="5">C o m e n t a r i o s</textarea><br><br>
+
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Borrar"><br>
+
+		<br><br> Enviar un archivo
+		<input id="logo" name="archivo" type="file" />
+	</form></div></section>
+
+</body>
+</html>

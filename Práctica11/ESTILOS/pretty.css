@@ -1,0 +1,289 @@
+/* This style sheet was written by Daniel Greene, danielgreene@home.com. Last updated 2001-04-26 */
+
+/*P:first-letter {
+	 font-weight: bold;
+}
+
+P:first-line {
+text-transform: uppercase;
+}*/
+
+A:link .offsite {
+	color : #99C;
+	background : White;
+	font-weight : lighter;
+}
+
+A:active {
+	color : Lime;
+	background : Black;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+A:hover {
+	color : Red;
+	background : White;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+A:link {
+	color : Fuchsia;
+	background : White;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+A:visited {
+	color : Olive;
+	background : White;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+ADDRESS {
+	margin : .5em 0em;
+	font-style : italic;
+	text-align : right;
+}
+
+BLOCKQUOTE {
+	margin : .5em 2em;
+	font-style : italic;
+}
+
+BLOCKQUOTE BLOCKQUOTE {
+	font-style : normal;
+}
+
+BODY {
+	margin-left : 100px;
+	margin-right : 2em;
+	color : Teal;
+	background : White url(../images/ivyside.gif) repeat-y fixed top left;
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+CITE, STRONG EM, EM STRONG, B I, I B {
+	font-weight : bold;
+	font-style : italic;
+}
+
+CODE {
+	color : Navy;
+	background : White;
+}
+
+CODE, KBD, SAMP {
+	font-family : Fixedsys, "Lucida Console", "Courier New", monospace;
+}
+
+DD {
+	margin : .5em 3em;
+}
+
+DFN, EM, I, VAR {
+	font-style : italic;
+}
+
+DL {
+	margin : 1em 0em;
+}
+
+DT {
+	margin : .5em 0em;
+}
+
+H1 {
+	font-size : 2.25em;
+}
+
+H1, H2 {
+	font-family : "Times New Roman", "Times Roman", Times, serif;
+}
+
+H2 {
+	font-size : 1.75em;
+}
+
+H2, H3, H4, H5, H6 {
+	color : Red;
+	background : White;
+	font-style : italic;
+}
+
+H2.subhead {
+	margin-top : 0;
+	text-align : right;
+}
+
+H3 {
+	border-bottom : thin solid Yellow;
+	padding-left : .5em;
+}
+
+HR {
+	border-color : Teal;
+}
+
+LI {
+	list-style-position : outside;
+}
+
+OL {
+	margin : .25em 0em .25em .5em;
+}
+
+OL LI {
+	list-style-type : decimal;
+}
+
+OL OL LI {
+	list-style-type : lower-alpha;
+}
+
+OL OL OL LI {
+	list-style-type : lower-roman;
+}
+
+OL.outline {
+	margin : .25em 0em .25em .5em;
+}
+
+OL.outline LI {
+	list-style-type : upper-roman;
+}
+
+
+OL.outline OL LI {
+	list-style-type : upper-alpha;
+}
+
+OL.outline OL OL LI {
+	list-style-type : decimal;
+}
+
+OL.outline OL OL OL LI {
+	list-style-type : lower-alpha;
+}
+
+OL.outline OL OL OL OL LI {
+	list-style-type : lower-roman;
+}
+
+P {
+	margin : .5em 0em;
+	padding : .25em;
+}
+
+PRE {
+	font-family : "Lucida Typewriter", "Courier New", Courier, monospace;
+}
+
+Q {
+	font-style : italic;
+}
+
+STRONG, B {
+	font-weight : bold;
+}
+
+UL {
+	margin : .5em 0em .5em 1em;
+}
+
+UL LI {
+	list-style-type : disc;
+}
+
+UL UL LI {
+	list-style-type : circle;
+}
+
+UL UL UL LI {
+	list-style-type : square;
+}
+
+.blackbox {
+	padding : .5em;
+	border : medium ridge;
+	background : Black;
+	color : White;
+	text-align : center;
+}
+
+.center {
+	text-align : center;
+}
+
+.condensed {
+	letter-spacing : -.1em;
+}
+
+.first-letter {
+	font-size : 1.5em;
+	font-weight : bold;
+}
+
+.justify {
+	text-align : justify;
+}
+
+.left {
+	text-align : left;
+}
+
+.navbar {
+	margin : 0;
+	font-size : smaller;
+	text-indent : 0;
+	text-align : center;
+}
+
+.note {
+	font-style : italic;
+}
+
+.note EM {
+	font-style : normal;
+}
+
+.callout {
+	border : thin solid Fuchsia;
+	padding : .25em;
+	background : #FCF url(../images/parchment.gif) fixed;
+	font : italic 1.5em "Times New Roman", "Times Roman", Times, serif;
+	text-align : center;
+}
+
+.right {
+	text-align : right;
+}
+
+.smallcaps {
+	font-variant : small-caps;
+}
+
+.stretched {
+	letter-spacing : .5em;
+}
+
+.subhead {
+	margin-top : 0;
+}
+
+#footer {
+	margin : 1em 0em;
+	border-top : thin solid Teal;
+	padding-top : .5em;
+}
+
+#header {
+	margin : 0;
+	background : White;
+	color : Teal;
+	text-align : center;
+	position : fixed;
+	top : 0;
+}

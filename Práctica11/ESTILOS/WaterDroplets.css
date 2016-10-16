@@ -1,0 +1,27 @@
+BODY
+{
+   background: url(WaterDroplets.jpg);
+   background-color: #aee;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 12pt;
+   font-family: verdana, sans-serif;
+}
+h1
+{
+   color: #004080;
+   font-size:18pt;
+   font-family: "Goudy Stout", sans-serif;
+}
+h2
+{
+   color: #004080;
+   font-size:14pt;
+   font-family: "Goudy Stout", sans-serif;
+}
+h3
+{
+   color: #004080;
+   font-size:12pt;
+   font-family: "Goudy Stout", sans-serif;
+}
